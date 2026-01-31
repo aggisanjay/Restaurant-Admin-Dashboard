@@ -1,4 +1,4 @@
-### Restaurant Admin Dashboard
+## Restaurant Admin Dashboard
 
 A full-stack restaurant management application built with React, Node.js, Express, and MongoDB. This dashboard allows restaurant owners to manage menu items, track orders, and monitor inventory in real-time.
 
