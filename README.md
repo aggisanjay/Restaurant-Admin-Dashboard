@@ -7,31 +7,49 @@ A full-stack restaurant management application built with React, Node.js, Expres
 # Menu Management
 
 ✅ Create, read, update, and delete menu items
+
 ✅ Search menu items with debounced search (300ms delay)
+
 ✅ Filter by category and availability status
+
 ✅ Toggle item availability with optimistic UI updates
+
 ✅ Responsive grid layout with item cards
+
 ✅ Real-time validation and error handling
 
 # Orders Dashboard
 
 ✅ View all orders with pagination (10 per page)
+
 ✅ Filter orders by status (Pending, Preparing, Ready, Delivered, Cancelled)
+
 ✅ Update order status with dropdown selection
+
 ✅ Expandable order details showing all items
+
 ✅ Real-time status badges with color coding
 
 # Technical Highlights
 
 ✅ Custom useDebounce hook for optimized search
+
 ✅ Custom useFetch hook for data fetching
+
 ✅ MongoDB text indexing for fast search
+
 ✅ Optimistic UI updates with error rollback
+
 ✅ Toast notifications for user feedback
+
 ✅ Comprehensive error handling
+
 ✅ RESTful API design
+
 ✅ MongoDB aggregation pipeline for analytics (top-selling items)
+
 ✅ Input validation using Mongoose schemas
+
 ✅ Responsive design for all screen sizes
 
 # 📋 Prerequisites
@@ -341,6 +359,7 @@ Rolls back changes if API fails
 Shows toast notification for success/failure
 
 Code Location: frontend/src/pages/MenuManagement.js (handleToggleAvailability function)
+
 # 🚀 Deployment Guide
 
 MongoDB Atlas Setup
@@ -375,12 +394,12 @@ PORT: 5000
 
 NODE_ENV: production
 
-FRONTEND_URL: Your Netlify URL
+FRONTEND_URL: Your vercel URL
 
 
 Deploy and note the backend URL
 
-Frontend Deployment (Netlify)
+Frontend Deployment (vercel)
 
 Create account at netlify.com
 
@@ -399,14 +418,22 @@ Deploy and get live URL
 
 Post-Deployment
 
-Update backend CORS settings with Netlify URL
+Update backend CORS settings with vercel URL
 
 Run seed script to populate production database
 
 
 
 📸 Screenshots
-[Add screenshots of your application here]
+
+# Menu Management
+
+<img width="1240" height="1915" alt="image" src="https://github.com/user-attachments/assets/a7bd9b65-b62f-4022-a932-6e15feb8d486" />
+
+# Orders Dashboard
+
+<img width="1240" height="1728" alt="image" src="https://github.com/user-attachments/assets/7b27e134-e320-4e17-9920-3502c9247a58" />
+
 
 
 API Testing:
