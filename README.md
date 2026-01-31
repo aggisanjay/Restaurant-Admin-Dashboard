@@ -394,12 +394,12 @@ PORT: 5000
 
 NODE_ENV: production
 
-FRONTEND_URL: Your vercel URL
+FRONTEND_URL: Your netlify URL
 
 
 Deploy and note the backend URL
 
-Frontend Deployment (vercel)
+Frontend Deployment (netlify)
 
 Create account at netlify.com
 
@@ -418,7 +418,7 @@ Deploy and get live URL
 
 Post-Deployment
 
-Update backend CORS settings with vercel URL
+Update backend CORS settings with netlify URL
 
 Run seed script to populate production database
 
